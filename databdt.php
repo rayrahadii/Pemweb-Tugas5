@@ -84,11 +84,7 @@
                     <td><?php echo $data['tinggi'];  ?></td>
                     <td><?php echo $data['alamat'];  ?></td>
                     <td>
-                      <a href="<?php echo "updatebdt.php?id_identitas=".$data['id_identitas']; ?>" class="btn btn-outline-warning btn-sm"> Update</a>
-                      &nbsp;&nbsp;
                       <a href="<?php echo "deletebdt.php?id_identitas=".$data['id_identitas']; ?>" class="btn btn-outline-danger btn-sm"> Delete</a>
-                      &nbsp;&nbsp;
-                      <a href="<?php echo "detailbdt.php?id_identitas=".$data['id_identitas']; ?>" class="btn btn-outline-success btn-sm"> Detail</a>
                     </td>
                   </tr>
                  <?php endwhile ?>
