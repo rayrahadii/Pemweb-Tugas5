@@ -80,11 +80,7 @@
                     <td><?php echo $data['hobby'];  ?></td>
                     <td><?php echo $data['sertifikat'];  ?></td>
                     <td>
-                      <a href="<?php echo "update.php?isi_id=".$data['isi_id']; ?>" class="btn btn-outline-warning btn-sm"> Update</a>
-                      &nbsp;&nbsp;
                       <a href="<?php echo "delete.php?isi_id=".$data['isi_id']; ?>" class="btn btn-outline-danger btn-sm"> Delete</a>
-                      &nbsp;&nbsp;
-                      <a href="<?php echo "detail.php?isi_id=".$data['isi_id']; ?>" class="btn btn-outline-success btn-sm"> Detail</a>
                     </td>
                   </tr>
                  <?php endwhile ?>
